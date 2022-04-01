@@ -17,13 +17,13 @@ int main()
 		complex.seekg(1, ios_base::cur);
 		i += 1;
 	}
-	double max = p[0].mod();
+	double max = p[0].ms();
 	int maxindex = 0;
 	for (i = 1; i < n; i++) {
-		if (max < p[i].mod())
+		if (max < p[i].ms())
 		{
 			maxindex = i;
-			max = p[i].mod();
+			max = p[i].ms();
 		}
 	}
 	cout << max << endl << maxindex << endl;

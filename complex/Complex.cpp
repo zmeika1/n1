@@ -23,7 +23,7 @@ Complex Complex::del(Complex cmp1) {
 	return del;
 }
 
-double Complex::mod() {
+double Complex::ms() {
 	double mod = sqrt(pow(this->re, 2) + pow(this->im, 2));
 	return mod;
 }

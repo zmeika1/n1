@@ -12,7 +12,7 @@ struct Complex {
 	Complex sum(Complex cmp1);
 	Complex mult(Complex cmp1);
 	Complex del(Complex cmp1);
-	double mod();
+	double ms();
 };
 
 #endif
